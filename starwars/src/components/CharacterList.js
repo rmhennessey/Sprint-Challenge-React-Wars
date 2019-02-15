@@ -9,18 +9,18 @@ const CharacterList = props => {
             <div className = "characterCard">
             <Character 
                 name = {character.name}
-                birthYear = {character.birthYear}
+                birthYear = {character.birth_year}
                 created = {character.created} 
                 edited = {character.edited}
-                eyeColor = {character.eyeColor}
+                eyeColor = {character.eye_color}
                 gender = {character.gender}
-                hair = {character.hair}
+                hair = {character.hair_color}
                 height = {character.height}
                 homeworld = {character.homeworld}
                 mass = {character.mass}
-                skinColor = {character.skinColor}
+                skinColor = {character.skin_color}
                 url = {character.url}
-                films = {[character.films]}
+                films = {character.films}
                 species = {character.species}
                 starships = {character.starships}
                 vehicles = {character.vehicles}
