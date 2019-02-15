@@ -15,7 +15,7 @@ const ContentCard = props => {
             <p><strong>Mass:</strong> {props.mass}</p>
             <p><strong>Skin Color:</strong> {props.skinColor}</p>
             <p><strong>URL:</strong> {props.url}</p>
-            <p><strong>Films:</strong> {props.films}</p>
+            <p><strong>Films:</strong> [{props.films}]</p>
             <p><strong>Species:</strong> {props.species}</p>
             <p><strong>Starships:</strong> {props.starships}</p>
             <p><strong>Vehicles:</strong> {props.vehicles}</p>

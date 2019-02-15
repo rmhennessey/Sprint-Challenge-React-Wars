@@ -20,10 +20,10 @@ const CharacterList = props => {
                 mass = {character.mass}
                 skinColor = {character.skin_color}
                 url = {character.url}
-                films = {character.films}
-                species = {character.species}
-                starships = {character.starships}
-                vehicles = {character.vehicles}
+                films = {character.films[0]}
+                species = {character.species[0]}
+                starships = {character.starships[0]}
+                vehicles = {character.vehicles[0]}
                 />
             </div>
         ) 

@@ -2,3 +2,11 @@
     color: red;
     text-decoration: underline
 }
+
+.characterCard {
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin-top: 20px;
+    background: white;
+}
