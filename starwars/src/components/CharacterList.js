@@ -1,6 +1,5 @@
 import React from "react";
 import Character from "./Character";
-//import ContentCard from "./ContentCard";
 
 import "./StarWars.css";
 
